@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/parcel-bundler/bin/cli.js index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html"
   },
   "engines": {
     "node": "12.1.0"
