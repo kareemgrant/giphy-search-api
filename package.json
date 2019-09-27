@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/parcel-bundler/bin/cli.js index.html",
-    "build": "parcel build index.html"
+    "start": "npm run bundle-prod && npm run build-prod",
+    "bundle-prod": "./node_modules/parcel-bundler/bin/cli.js index.html",
+    "build-prod": "parcel build index.html",
+    "build-dev": "parcel index.html"
   },
   "engines": {
     "node": "12.1.0"
